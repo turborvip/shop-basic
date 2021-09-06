@@ -1,0 +1,268 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 255, 255));
+    position: relative;
+}
+/* menu top */
+#logo-shop{
+    width: 94px;
+}
+.dropdown{
+    margin-left: 0px;
+}
+#acc {
+    margin-top: -3px;
+}
+.form-search{
+    margin-left: 15px;
+    margin-right: 40px;
+}
+#input-search{
+    width: 250px;
+}
+#cart{
+    margin-top: -3px;
+    height: 39px;
+    font-size:15px;
+
+}
+.yourorder{
+    margin-top: -3px;
+    
+}
+/* .dropdown{
+    margin-left: 29px;
+} */
+.ul-menutop .li-menutop {
+    display: inline-block;
+}
+
+.ul-menutop{
+    float: right;
+    margin-bottom: 0;
+}
+/* begin menu top */
+/* main */
+.href{
+    margin-top: 80px;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 5%; */
+}
+.icon-title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: -25px;
+}
+.step1,.step2,.step3{
+    width: fit-content;
+    color: #c2c2c2
+}
+.step1{
+    color:rgb(0, 0, 0) ;
+}
+
+table{
+    margin-top: 3%;
+}
+
+th{
+    background-color: rgb(14, 107, 76);
+    color: white;
+}
+
+.Amount{
+    width: 50px;
+}
+
+.end-main{
+    width: fit-content;
+    float: right;
+}
+
+.col-md-4{
+    margin-top: 3%;
+    
+}
+.title-row{
+    padding: 8px 8px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgb(14, 107, 76) ;
+    color: white;
+}
+.form-control{
+    margin-top: 2%;
+}
+.dropdown-header{
+    margin-top: 2%;
+    width: 100%;
+}
+.detail-address{
+    margin-top: 2%; 
+}
+/* .totalPrice{
+    
+} */
+.total,.totalPrice{
+    width: fit-content;
+    display: inline;
+    
+}
+#imgModal{
+  width: 25%;
+}
+.formTransport{
+    margin-top:30px
+}
+.imageTransport {
+    width: 90px;
+    background-position: center center;
+    background-color: gray;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px rgb(223, 223, 223);
+
+}
+.imageTransport:active{
+    box-shadow: 5px 5px 5px 5px rgb(187, 187, 187);
+}
+.inputTransport{
+    top:50px;
+    display: block;
+    margin: 0 auto;
+}
+.information{
+    text-align: center;
+    width: 100%;
+    font-size: 15Spx;
+}
+.infhead{
+    background-color: rgb(94, 94, 94);
+    font-weight: 200;
+    height: 50px;
+}
+.totalPayment{
+    width: fit-content;
+    display: inline;
+}
+.totalandbutton{
+    margin-top: 50px;
+    float: right;
+}
+.back-and-next{
+    padding: 20px 25px;
+}
+#next{
+    float: right;
+}
+.done{
+    text-align: center;
+    margin-top: 30px;
+}
+.getprice{
+    display: none;
+}
+/* .image:checked {
+    border:2px solid orange;
+    cursor:pointer;
+} */
+
+/* end main */
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #343a40!important;
+    margin-top: 5%;
+  }
+  .colum-info{
+    height: 0px;
+    display:inline-block;
+    margin-left: 20px;
+  }
+  .colum-info ul li{
+    list-style: none;
+    margin-top: 10px;
+  }
+  .colum-info ul li a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+  }
+  .colum-info ul li span{
+    color:rgb(255, 255, 255);
+  }
+  .strong-footer{
+      color: rgb(0, 155, 46);
+  }
+  .colum-info ul li img{
+    max-width: 70px;
+  }
+  .endtext{
+
+    margin-top: 50px;
+    padding: 10px 20px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    text-align:center;
+  }
+  /*end footer */
+  /* --------------------------Modal box custom-------------------------------- */
+  .modal-box-custom{
+    display: none; 
+    position: fixed; 
+    z-index: 3;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+
+  }
+   
+/* Modal Content */
+.modal-content1-custom {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    height: fit-content;
+}
+ 
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+ 
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.yes-or-no{
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top:30px;
+}
+.modal-content2-custom,.modal-content3-custom{
+    display: none;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    height: fit-content;
+}

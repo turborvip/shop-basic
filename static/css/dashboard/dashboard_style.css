@@ -1,0 +1,112 @@
+.container{
+    margin: 0 auto;
+    height: 1000px;
+    width: 50%;
+    display: inline;
+}
+
+.navbar-brand{
+    width: fit-content;
+    text-align: center;
+    display: inline;
+    
+}
+.text-navbar-top-header{
+    font-size: 26px;
+    width: fit-content;
+    text-align: center;
+    padding: 0px 0px;
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+}
+.nav-link{
+    float:left;
+}
+h3{
+    display: inline;
+    width: fit-content;
+}
+.container-fluid{
+    width: fit-content;
+    margin-top: 8%;
+}
+.row{
+    height: 1000px;
+}
+.col-sm-3{
+    background-color:rgb(255, 255, 255);
+    overflow: auto;
+    
+}
+.logo{
+    background-color: #343a40!important;
+    height: 55px;
+}
+
+.box-left{
+    position: fixed;
+    width: 25%;
+}
+.card-body{
+    margin-left: -2%;
+    margin-top: -2%;
+    margin-bottom: -7%;
+} 
+ .list-group-item{
+    margin-bottom: 3%;
+}   
+
+.list-group-item a{
+    padding-left: 15%;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    margin-bottom: 5%;
+} 
+#accordion{
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    animation-duration: 4s;
+    position:absolute;
+}
+
+
+.col-sm-9{
+    height: 5000px;
+    background-color: rgb(206, 206, 206);
+}
+
+span{
+    color: aliceblue;
+    margin-left: 7%;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.navbar{
+    margin-left: -1%;
+}
+.navbar-nav {
+    margin-left: 60%;
+}
+/* ---- */
+.pagination {
+        display: inline-block;
+    }
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}

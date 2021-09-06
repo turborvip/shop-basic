@@ -1,0 +1,325 @@
+body{
+    height: fit-content;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 255, 255));
+    position: relative;
+}
+
+/* menu top */
+#logo-shop{
+    width: 94px;
+}
+.dropdown{
+    margin-left: 0px;
+}
+#acc {
+    margin-top: -3px;
+}
+.form-search{
+    margin-left: 15px;
+    margin-right: 40px;
+}
+#input-search{
+    width: 250px;
+}
+#cart{
+    margin-top: -3px;
+    height: 39px;
+    font-size:15px;
+
+}
+.yourorder{
+    margin-top: -3px;
+    
+}
+/* .dropdown{
+    margin-left: 29px;
+} */
+.ul-menutop .li-menutop {
+    display: inline-block;
+}
+
+.ul-menutop{
+    float: right;
+    margin-bottom: 0;
+}
+/* begin menu top */
+
+/* main */
+.containerhaha{
+    margin: 0  auto;
+    background-color:  rgb(255, 255, 255);
+    max-width: 90%;
+    display: block;
+    
+}
+.href{
+    margin-top: 7%;
+}
+.name-product{
+    margin-top: 5%;
+    width: fit-content;
+}
+.row{
+    width: 100%;
+    display: block;
+    
+    
+}
+.col-md-6{
+    background-color: rgb(255, 255, 255);
+}
+#col6{
+    background-color: rgb(255, 255, 255);
+}
+.price{
+    color: red;
+    font-size: 35px;
+    font-family:  sans-serif;
+}
+.info{
+    margin-top: 5%;
+}
+.info-child{
+    margin-top: 3%;
+    list-style-type: none;
+}
+#info-text{
+    text-decoration: none;
+    color: #818181;
+}
+.carousel-item{
+    width: 578px;
+    transition: 5s;
+}
+/* .carousel-control-prev{
+} */
+
+#img-slider {
+    width: 578px;
+}
+.imgproduct{
+    margin: auto;
+    display: block;
+}
+.hdd{
+    margin-top: 5%;
+}
+.hdd-option{
+    width: 100%;
+}
+
+.hdd-option-child{
+    list-style-type: none;
+    display: inline;
+    font-size: 23px;
+    color: #535353;
+}
+#option-center{
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+.color-child{
+    list-style-type: none;
+    display: inline;
+    font-size: 13px;
+}
+
+#color{
+    width:12%;
+
+}
+.color{
+    margin-top: 5%;
+}
+
+.choose{
+    display: block;
+    color: rgb(0, 94, 39);
+}
+
+.hinhthucthanhtoan{
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+.hinhthucthanhtoan-img{
+    margin-top: 10px;
+    width:fit-content;
+    float:left;
+}
+.imgpay{
+    width: 50px;
+    display: inline-block;
+}
+.hinhthucthanhtoan-text{
+    float: right;
+    width: 75%;
+}
+.hinhthucthanhtoan-text strong{
+    display: block;
+}
+.hinhthucthanhtoan-text span{
+    display: block;
+    font-size: 14px;
+    margin: 10px 0px;
+    font-family: sans-serif;
+    color: rgb(70, 70, 70);
+}
+.hinhthucthanhtoan-text a{
+    text-decoration: none;
+}
+
+.btn-card{
+    background-color: rgb(206, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 5px;
+    height: fit-content;
+    width: 100%;
+    height: 68px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+    border: 0px;
+}
+.btn-card:hover{
+    background-color: rgb(223, 0, 0);
+}
+td{
+    width: fit-content;
+    text-align: center;
+}
+.th{
+    text-align: center;
+}
+.totalPrice{
+    margin-right: 50px;
+}
+.total,.totalPrice{
+    width: fit-content;
+}
+.buy-now1{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size :24px ;
+}
+.buy-now2{
+    color: rgb(255, 249, 249);
+    font-family: sans-serif;
+    font-size: 13px;
+    display:block;
+    margin-top: 5px;
+    
+}
+.buy-tragop{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5px;
+}
+.buy-tragop1{
+    float:left;    
+    width: 49.5%;
+    height: 50px;
+    background-color: rgb(2, 97, 206);
+    text-align: center;
+    border-radius: 3px;
+    height: fit-content;
+}
+.buy-tragop2{
+    float:right;    
+    width: 49.5%;
+    height: 50px;
+    background-color: rgb(2, 97, 206);
+    text-align: center;
+    border-radius: 3px;
+    height: fit-content;
+}
+.buy-tragop1:hover, .buy-tragop2:hover{
+    background-color: rgb(3, 3, 240);
+}
+.phonenumber-nearshop{
+    margin-top: 70px;
+}
+.phonenumber{
+    font-family: sans-serif;
+    color: rgb(202, 0, 0);
+}
+.phonenumber-nearshop a{
+    float:right;
+    text-decoration: none;
+}
+.table{
+    padding: 1% 1%;
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.table a{
+    text-decoration: none;
+}
+.table span{
+    display:block;
+}
+/* end main */
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #343a40!important;
+    margin-top: 5%;
+    margin-left: -5%;
+    width: 112%;
+}
+.colum-info{
+    height: 0px;
+    display:inline-block;
+    margin-left: 20px;
+}
+.colum-info ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.colum-info ul li a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+.colum-info ul li span{
+    color:rgb(255, 255, 255);
+}
+.strong-footer{
+      color: rgb(0, 155, 46);
+}
+.colum-info ul li img{
+    max-width: 70px;
+}
+.endtext{
+
+    margin-top: 50px;
+    padding: 10px 20px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    text-align:center;
+}
+
+ 
+#imgModal{
+  width: 25%;
+}
+.amount{
+  width: 50px;
+}
+
+#imgModal{
+  width: 35%;
+}
+#modal-content{
+    width: 150%;
+    left: -25%;
+}
+.modal-header{
+    background-color: #007531;
+    color: white;
+}

@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(74, 253, 119) , rgb(0, 114, 51));
+}
+.border{
+    background-color: white;
+    margin-bottom:5%;
+    margin-top: 5%;
+    height: 579px;
+    width: 858px;
+    border-bottom-left-radius: 45%;
+    border-top-left-radius: 45% ;
+}
+.banner{
+    margin-top: -10%;
+    width: 122%;
+    margin-left: -24%;
+}
+.logo{
+    width: 211%;
+    margin-top: -12%;
+    margin-left: -51%;
+}
+
+.formLogin{
+    border-radius: 9px;
+    border: 2px solid rgb(0, 107, 230) ;
+    padding: 10% 10%;
+    width: 40%;
+    border-style: dotted;
+    margin-top: 80px;
+    margin-left: 342px;
+}
+h3{
+    width: fit-content;
+}
+
+div{
+    width: fit-content;
+    display: block;
+}
+
+.username,.password{
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.signup{
+    margin-top: 20px;
+}
+
